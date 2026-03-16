@@ -1,0 +1,23 @@
+/* Global fixes to prevent horizontal scrolling */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Hide any accidental horizontal overflow */
+}
+
+/* Use border-box for predictable sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure media elements don't overflow their containers */
+img,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

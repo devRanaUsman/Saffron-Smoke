@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1864,
+    "name": "Blog",
+    "slug": "blog",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 222,
+    "name": "Chefs",
+    "slug": "chefs",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 230,
+    "name": "Course",
+    "slug": "course",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 233,
+    "name": "Dessert",
+    "slug": "dessert-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 2117,
+    "name": "Dip-Condiment",
+    "slug": "dip-condiment",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 258,
+    "name": "Eid",
+    "slug": "eid",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 787,
+    "name": "Featured Recipes",
+    "slug": "featured-recipes",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 245,
+    "name": "Fish-Seafood",
+    "slug": "fish-seafood-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 671,
+    "name": "Food Garnishing",
+    "slug": "food-garnishing",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 2032,
+    "name": "Food Recipes",
+    "slug": "uncategorized-ur",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 2330,
+    "name": "Food Review",
+    "slug": "food-review",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 392,
+    "name": "Mince",
+    "slug": "mince-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 241,
+    "name": "Mutton-Lamb",
+    "slug": "mutton-lamb-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 246,
+    "name": "Pasta-Noodles",
+    "slug": "pasta-noodles",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 2049,
+    "name": "Product Review",
+    "slug": "product-review",
+    "parent": "blog",
+    "description": ""
+  },
+  {
+    "id": 259,
+    "name": "Ramadan",
+    "slug": "ramadan-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 247,
+    "name": "Rice",
+    "slug": "rice",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 255,
+    "name": "Roti-Paratha-Naan",
+    "slug": "bread-roti-paratha-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 325,
+    "name": "Salad",
+    "slug": "salad-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 326,
+    "name": "Sandwich",
+    "slug": "sandwich-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 2115,
+    "name": "Seasoning",
+    "slug": "seasoning-masala",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 672,
+    "name": "Soup Recipes",
+    "slug": "soup-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 336,
+    "name": "Tikka-Kabab-Cutlets",
+    "slug": "tikka-kabab-cutlets",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 50,
+    "name": "Tips &amp; Tricks",
+    "slug": "tips",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 2148,
+    "name": "Urdu Recipes",
+    "slug": "urdu-recipes",
+    "parent": null,
+    "description": ""
+  },
+  {
+    "id": 244,
+    "name": "Vegetarian",
+    "slug": "vegetables",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 235,
+    "name": "Appetizers and Snacks",
+    "slug": "appetizers-snack-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 251,
+    "name": "Baking",
+    "slug": "baking-dishes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 240,
+    "name": "Beef",
+    "slug": "beef-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 237,
+    "name": "Beverage",
+    "slug": "beverage-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 267,
+    "name": "Breakfast",
+    "slug": "breakfast-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 254,
+    "name": "Burger",
+    "slug": "burger-recipes",
+    "parent": "course",
+    "description": ""
+  },
+  {
+    "id": 226,
+    "name": "Chef Gulzar Hussain",
+    "slug": "chef-gulzar-hussain",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 225,
+    "name": "Chef Kokab Khawaja",
+    "slug": "chef-kokab-khawaja",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 2107,
+    "name": "Chef Mehboob",
+    "slug": "chef-mehboob-recipes",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 223,
+    "name": "Chef Rida Aftab",
+    "slug": "chef-rida-aftab",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 227,
+    "name": "Chef Shireen Anwar",
+    "slug": "chef-shireen-anwar",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 518,
+    "name": "Chef Tahir Chaudhry",
+    "slug": "chef-tahir-chaudhry",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 224,
+    "name": "Chef Zakir Qureshi",
+    "slug": "chef-zakir-recipes",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 228,
+    "name": "Chef Zarnak Sidhwa",
+    "slug": "chef-zarnak-sidhwa",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 229,
+    "name": "Chef Zubaida Tariq",
+    "slug": "chef-zubaida-tariq",
+    "parent": "chefs",
+    "description": ""
+  },
+  {
+    "id": 239,
+    "name": "Chicken Recipes",
+    "slug": "chicken",
+    "parent": "course",
+    "description": ""
+  }
+]

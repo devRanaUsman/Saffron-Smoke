@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <h3>Upload Blog (.docx)</h3>
+    <form action="http://localhost:3002/api/blogs/upload" method="post" enctype="multipart/form-data">
+      <div><input name="title" placeholder="Title" required /></div>
+      <div><input name="thumbnail" placeholder="Thumbnail URL" required /></div>
+      <div><input name="author" placeholder="Author" required /></div>
+      <div><input name="category" placeholder="Category" required /></div>
+      <div><input type="file" name="file" accept=".docx" required /></div>
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
