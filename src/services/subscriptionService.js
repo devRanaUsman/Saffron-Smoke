@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3002/api/subscriptions";
+const BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/subscriptions` : "http://localhost:3002/api/subscriptions";
 
 export const subscribe = async (email) => {
   const res = await fetch(BASE_URL, {

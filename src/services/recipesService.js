@@ -1,6 +1,6 @@
 // Frontend API service for Recipes
 
-const BASE_URL = "http://localhost:3002/api/recipes";
+const BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/recipes` : "http://localhost:3002/api/recipes";
 
 // Note: backend expects query key "inEid" and "ramadan"
 // Note: backend expects query key "inEid" and "ramadan"

@@ -18,7 +18,11 @@ const app = express();
 // Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || "*",
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  credentials: true
+}));
 app.options("*", cors()); // Handle CORS preflight globally
 
 // Routes
@@ -38,9 +42,14 @@ const DB_PATH =
 
 mongoose
   .connect(DB_PATH)
-  .then(() => {
-    app.listen(PORT, () => {
-      console.log(`Recipe backend running at http://localhost:${PORT}`);
-    });
-  })
   .catch((err) => console.log("DB Connection Error", err));
+
+// Start server locally, or let Vercel handle it via export
+if (process.env.NODE_ENV !== "production") {
+  app.listen(PORT, () => {
+    console.log(`Recipe backend running at http://localhost:${PORT}`);
+  });
+}
+
+// Export the Express API for Vercel compatibility
+module.exports = app;

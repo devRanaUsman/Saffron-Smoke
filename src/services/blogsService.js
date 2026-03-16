@@ -1,6 +1,6 @@
 // Frontend API service for Blogs
 
-const BASE_URL = "http://localhost:3002/api/blogs";
+const BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/blogs` : "http://localhost:3002/api/blogs";
 
 // Fetch all blogs (list)
 export const fetchBlogs = async () => {

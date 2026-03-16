@@ -101,10 +101,8 @@ const AddTipForm = () => {
         ),
       };
 
-      const response = await axios.post(
-        "http://localhost:3002/api/tips/admin/add",
-        cleanTip
-      );
+      const apiUrl = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/tips/admin/add` : "http://localhost:3002/api/tips/admin/add";
+      const response = await axios.post(apiUrl, cleanTip);
 
       setMessage("Tip added successfully!");
 

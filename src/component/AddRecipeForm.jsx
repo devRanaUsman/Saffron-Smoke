@@ -116,10 +116,8 @@ const AddRecipeForm = () => {
         ),
       };
 
-      const response = await axios.post(
-        "http://localhost:3002/api/recipes/admin/add",
-        cleanRecipe
-      );
+      const apiUrl = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/recipes/admin/add` : "http://localhost:3002/api/recipes/admin/add";
+      const response = await axios.post(apiUrl, cleanRecipe);
 
       setMessage("Recipe added successfully!");
 

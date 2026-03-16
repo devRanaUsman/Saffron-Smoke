@@ -101,10 +101,8 @@ const AddBlogForm = () => {
         ),
       };
 
-      const response = await axios.post(
-        "http://localhost:3002/api/blogs/admin/add",
-        cleanBlog
-      );
+      const apiUrl = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/blogs/admin/add` : "http://localhost:3002/api/blogs/admin/add";
+      const response = await axios.post(apiUrl, cleanBlog);
 
       setMessage("Blog post added successfully!");
 
