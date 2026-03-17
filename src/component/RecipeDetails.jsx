@@ -176,12 +176,13 @@ function RecipeDetails() {
             {!!recipe.ingredientsInUrdu?.length && (
               <>
                 {" "}
-                <h1 style={{ fontWeight: "bold" }}>
+                <h1 style={{ color: "#222", fontWeight: "bold" }}>
                   {recipe.title} recipe in urdu
                 </h1>
                 <h2
                   className="text-right"
                   style={{
+                    color: "#222",
                     fontWeight: "bold",
                     fontSize: "2rem",
                     marginBottom: "2rem",

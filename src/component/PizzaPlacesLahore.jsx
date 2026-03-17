@@ -101,7 +101,7 @@ export default function PizzaPlacesLahore() {
     <div style={{ background: "#f7fbff" }}>
       {/* Fixed social bar on the left */}
       <LeftSideBar />
-      <h1 style={{ textAlign: "center", padding: "2rem 0" }}>
+      <h1 style={{ textAlign: "center", padding: "2rem 0", color: "#222" }}>
         {ARTICLE.title}
       </h1>
       <div
